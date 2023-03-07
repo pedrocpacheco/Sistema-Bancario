@@ -2,7 +2,11 @@ package br.com.fiap.banco;
 
 public class Conta {
 	
-	int agencia;
+	// Protected - Só pode ser acessado caso estiver no mesmo pacote
+	// Private - Só pode ser acessado dentro da classe
+	// Public - Pode ser acessado de qualquer lugar
+	
+	protected int agencia;
 	int numero; 
 	double saldo;
 	
