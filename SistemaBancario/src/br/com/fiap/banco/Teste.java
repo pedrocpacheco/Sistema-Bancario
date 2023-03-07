@@ -7,7 +7,7 @@ public class Teste {
 		Conta cc = new Conta();
 		cc.depositar(123);
 		cc.setAgencia(321);
-		cc.setNumero(50.0);
+		cc.setNumero(50);
 
 		cc.depositar(1000);
 		
