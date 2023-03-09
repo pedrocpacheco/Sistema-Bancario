@@ -6,7 +6,7 @@ public class Conta implements Serializable {
 	
 	/**
 	 * 
-	 */
+	 **/
 	private static final long serialVersionUID = 1L;
 	// Protected - Só pode ser acessado caso estiver no mesmo pacote
 	// Private - Só pode ser acessado dentro da classe
@@ -29,7 +29,6 @@ public class Conta implements Serializable {
 		  this.numero = numero; 
 		  this.saldo = saldo; 
 	  }
-	  
 	  
 	 
 	
