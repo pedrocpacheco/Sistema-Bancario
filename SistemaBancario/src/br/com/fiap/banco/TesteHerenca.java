@@ -9,7 +9,7 @@ public class TesteHerenca {
 		contaCorrente.setAgencia(11111);
 		contaCorrente.setNumero(2222);
 		contaCorrente.setTipo("PF");
-		contaCorrente.setChequeEspecial(10);
+		contaCorrente.setChequeEspecial(10.50);
 		
 	}
 	

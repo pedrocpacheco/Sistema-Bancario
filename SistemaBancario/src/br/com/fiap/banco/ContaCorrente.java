@@ -6,25 +6,25 @@ public class ContaCorrente extends Conta {
 	private double chequeEspecial;
 	
 	// Metodos Getters e Setters
-	public String getTipo() {
-		return tipo;
-	}
-	
 	public void setTipo(String tipo) {
 		this.tipo = tipo;
 	}
 	
-	public double getChequeEspecial() {
-		return chequeEspecial;
+	public String getTipo() {
+		return tipo;
 	}
 	
 	public void setChequeEspecial(double chequeEspecial) {
 		this.chequeEspecial = chequeEspecial;
 	}
 	
+	public double getChequeEspecial() {
+		return chequeEspecial;
+	}
+	
 	// Metodos Gerais
 	public double getSaldoDisponivel() {
-		return super.getSaldo() + chequeEspecial;
+		return getSaldo() + chequeEspecial;
 	}
 	
 
